@@ -1,6 +1,6 @@
 {
   "name": "@-amazeelabs/proxy-gutenberg",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "author": "Amazee Labs <development@amazeelabs.com>",
   "publishConfig": {
     "access": "public",
@@ -8,5 +8,5 @@
     "repository": "git@github.com:AmazeeLabs/proxy-gutenberg.git",
     "branch": "main"
   },
-  "gitHead": "e956a0b8983b6678b0fb7abad34a06ac1a0dbdbb"
+  "gitHead": "71159c7daa2b54f98cc103d3587d8694d0928178"
 }
