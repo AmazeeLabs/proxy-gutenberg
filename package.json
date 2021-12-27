@@ -1,6 +1,6 @@
 {
   "name": "@-amazeelabs/proxy-gutenberg",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "author": "Amazee Labs <development@amazeelabs.com>",
   "publishConfig": {
     "access": "public",
@@ -8,5 +8,11 @@
     "repository": "git@github.com:AmazeeLabs/proxy-gutenberg.git",
     "branch": "main"
   },
-  "gitHead": "1b7abf9d4e447a2e9865fa699db1995394f5d109"
+  "devDependencies": {
+    "@amazeelabs/sync-composer-version": "^1.1.2"
+  },
+  "scripts": {
+    "version": "sync-composer-version"
+  },
+  "gitHead": "5b5e202d508d4eb3b8d014b1218553db4384ca27"
 }
