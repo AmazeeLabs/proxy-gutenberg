@@ -1,7 +1,7 @@
 {
   "name": "amazeelabs/proxy-gutenberg",
   "type": "library",
-  "version": "1.1.11",
+  "version": "1.1.12",
   "description": "Proxy package for drupal/gutenberg.",
   "homepage": "https://silverback.netlify.app",
   "license": "GPL-2.0+",
@@ -9,7 +9,9 @@
     "enable-patching": true,
     "composer-exit-on-patch-failure": true,
     "patches": {
-      "Fix media dialog": "https://www.drupal.org/files/issues/2022-02-02/3258284-fix-media-library-modal.patch"
+      "drupal/gutenberg": {
+        "Fix media dialog": "https://www.drupal.org/files/issues/2022-02-02/3258284-fix-media-library-modal.patch"
+      }
     }
   },
   "require": {
