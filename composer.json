@@ -1,7 +1,7 @@
 {
   "name": "amazeelabs/proxy-gutenberg",
   "type": "library",
-  "version": "1.1.15",
+  "version": "1.1.16",
   "description": "Proxy package for drupal/gutenberg.",
   "homepage": "https://silverback.netlify.app",
   "license": "GPL-2.0+",
@@ -10,6 +10,12 @@
     "composer-exit-on-patch-failure": true,
     "patches": {}
   },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    }
+  ],
   "require": {
     "cweagans/composer-patches": "^1.7.3",
     "drupal/gutenberg": "^2.5"
