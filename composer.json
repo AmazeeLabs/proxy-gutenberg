@@ -1,18 +1,14 @@
 {
   "name": "amazeelabs/proxy-gutenberg",
   "type": "library",
-  "version": "1.2.2",
+  "version": "1.3.0",
   "description": "Proxy package for drupal/gutenberg.",
   "homepage": "https://silverback.netlify.app",
   "license": "GPL-2.0+",
   "extra": {
     "enable-patching": true,
     "composer-exit-on-patch-failure": true,
-    "patches": {
-      "drupal/gutenberg": {
-        "#3213528 Integrate Linkit": "https://www.drupal.org/files/issues/2023-03-27/3213528-9.patch"
-      }
-    }
+    "patches": {}
   },
   "repositories": [
     {
